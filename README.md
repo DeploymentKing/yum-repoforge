@@ -29,7 +29,7 @@ default['yum']['rpmforge']['gpgkey'] = 'http://apt.sw.be/RPM-GPG-KEY.dag.txt'
 ```
 
 ```ruby
-default['yum']['rpmforge-extras']['repositoryid'] = 'rpmforge'
+default['yum']['rpmforge-extras']['repositoryid'] = 'rpmforge-extras'
 default['yum']['rpmforge-extras']['description'] = 'RHEL $releasever - RPMforge.net - extras'
 default['yum']['rpmforge-extras']['mirrorlist'] = 'http://mirrorlist.repoforge.org/el6/mirrors-rpmforge-extras'
 default['yum']['rpmforge-extras']['enabled'] = true
